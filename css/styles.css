@@ -1,4 +1,6 @@
-
+* {
+    text-decoration: none;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -181,7 +183,8 @@ font-family: 'Roboto';
 font-size: 16px;
 line-height: 19px;
 letter-spacing: 0.03em;   
-color: #757575;    
+color: #757575;  
+margin-bottom: 16px;  
 }
 
 
@@ -191,9 +194,7 @@ color: #757575;
     display: flex;
     justify-content: space-between;
 }
-/* .fff {
-    max-width: 270px;
-} */
+
 .special {
     padding: 94px 0;
 }
@@ -218,7 +219,7 @@ color: #757575;
     justify-content: space-between;
 }
 .our-team-block {
-    padding: 30px 60px;
+    padding: 30px 30px;
     text-align: center;
 }
 .our-team-item {
@@ -251,6 +252,10 @@ padding: 60px 0;
 }
 .footer-address-item:last-child {
     margin-bottom: 0;
+}
+.sign-in {
+    display: flex;
+  
 }
 
 
@@ -338,6 +343,9 @@ color: #757575;
     margin-top: 30px;
 
 }
+.portfolio-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-item-block {
     padding: 24px 20px;
     text-align: left;
@@ -369,3 +377,64 @@ color: #757575;
     border-radius: 4px;
     margin-bottom: 30px;
 }
+/* Our-team */
+.our-team {
+    display: flex;
+    justify-content: space-between;
+}
+.our-team-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.our-team-link:hover {
+    background-color: #2196F3;
+}
+.our-team-link:hover .our-team-icon {
+    fill: #FFFFFF;
+}
+
+.our-team-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    transition: 0.4s;
+    
+}   
+ /* permanent-clients */
+
+ .permanent-clients {
+     padding: 94px 0;
+ }
+ .permanent-clients-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+ }
+ .permanent-clients-list {
+     display: flex;
+     justify-content: space-between;
+ }
+ .permanent-clients-icon {
+     height: 60px;
+     width: 106px;
+     padding: 16px 32px;
+     border: 1px solid #AFB1B8;
+     border-radius: 4px;
+     fill: #AFB1B8;
+     ;
+ }
+ .permanent-clients-icon:hover {
+     fill: #2196F3;
+     border-color: #2196F3;
+ }
