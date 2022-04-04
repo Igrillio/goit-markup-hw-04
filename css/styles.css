@@ -334,4 +334,18 @@ color: #757575;
 .portfolio-item-block {
     padding: 24px 20px;
     text-align: left;
+}  
+
+/* SVG */
+
+
+.contacts-icon {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+    transition: 0.4s;
+    margin: 0 10px;
 }   
+.contacts-icon:hover {
+    fill: #2196F3;
+}
