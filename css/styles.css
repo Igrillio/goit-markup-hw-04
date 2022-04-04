@@ -92,6 +92,11 @@
     color: #757575;
     transition: 0.4s;
 }
+.contacts-link {
+    display: flex;
+    text-align: center;
+}
+
 .contacts-link:hover {
     color: #2196F3
 }
@@ -103,6 +108,7 @@
 /* _HERO__ */
 
 .section-hero {
+background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img_backgraund.jpg) center/cover no-repeat;
 background-color: #2F303A;
 text-align: center;
 padding: 200px 0;
@@ -140,6 +146,7 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
+margin-bottom: 10px;
 }
 .features-text {
 font-family: 'Roboto';
@@ -147,7 +154,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em; 
 color: #757575;
-max-width: 250px;      
+max-width: 270px;      
 }
 .section-name {
 font-family: 'Roboto', sans-serif;
@@ -336,16 +343,29 @@ color: #757575;
     text-align: left;
 }  
 
+
 /* SVG */
 
-
+/* header */
 .contacts-icon {
+
     width: 16px;
-    height: 12px;
+    height: 16px;
     fill: #757575;
     transition: 0.4s;
     margin: 0 10px;
+    
 }   
 .contacts-icon:hover {
     fill: #2196F3;
+}
+
+/* Special */
+.special-icon {
+    width: 70px;
+    height: 70px;
+    padding: 25px 100px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
